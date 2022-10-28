@@ -95,9 +95,7 @@ div#amplitude-left div#player-left-bottom div#control-container{
 
 /* Play-pause Styles */
 .amplitude-play-pause{
-	box-sizing: border-box; 
-	transition: 200ms; 
-  color: #fff;
+	
 }
 .amplitude-play-pause:before {
     content: "";
@@ -405,6 +403,7 @@ div#amplitude-left div#player-left-bottom div#control-container	div#central-cont
 	height: 140px;
 	cursor: pointer;
 	margin: auto;
+	transform-origin: 50% 50%;
 }
 
 div#amplitude-left div#player-left-bottom div#control-container	div#central-control-container div#central-controls div#play-pause.amplitude-paused{

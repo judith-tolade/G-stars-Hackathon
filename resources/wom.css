@@ -4,13 +4,19 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	background-color: #2b3a42;
+	background: linear-gradient(145deg, #d4d4d4, #7A7A7A );
+	
+	
 }
 
 html, body {
+	color: #333333;
 }
 
 body {
-	margin:0 auto
+	margin:0 auto;
+    box-shadow:  5px 5px 10px #a5a5a5, -5px -5px 10px #ffffff;
+	
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -47,8 +53,8 @@ body {
 	font-family: helvetica neue, Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 24px;
-	color: #555;
-	background-color: #2b3a42;
+	color: #333333;
+	background: #EBEBEB;
 	z-index:1
 }
 
@@ -73,6 +79,14 @@ div#amplitude-player{
 	  max-width: 400px;
 	  margin: auto;
 	  padding: 0px 10px 0px 10px;
+	  background: #EBEBEB;
+	box-shadow: -5px -5px 15px 0px #ffffff9e, 5px 5px 15px 0px #a3b1c6a8;
+    border-radius: 15px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);	
+	background: rgba(255,255,255,0.05);
+	
+	
 }
 
 div#amplitude-left div#player-left-bottom div#control-container{
@@ -159,10 +173,11 @@ progress[value]::-webkit-progress-value {
   font-weight: 400;
   font-size: 12px;
   color: #808080;
-  background-color: #2b3a42;
+  background-color: transparent;
   height: 40px; 
   width: 85%;
   margin: auto; 
+  
   }
   
 .time-container span.current-time {
@@ -302,9 +317,10 @@ input[type=range].amplitude-volume-slider {
 /* Player Left Styles */
 div#amplitude-left{
 	padding: 0px;
-	background: #2b3a42;
+	background: transparent;
 	-webkit-backface-visibility: hidden;
 	backface-visibility:hidden;
+	
 }
 
 div#menu-container{

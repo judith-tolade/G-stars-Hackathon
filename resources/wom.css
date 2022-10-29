@@ -9,12 +9,14 @@ html {
 }
 
 html, body {
-	color: #333333;
+	color: black;
+	background-color: #4f7942;
 }
 
 body {
 	margin:0 auto;
     box-shadow:  5px 5px 10px #a5a5a5, -5px -5px 10px #ffffff;
+	
 	
 }
 
@@ -355,8 +357,8 @@ height: 50px;
 
 div#amplitude-left div#player-left-bottom{
 	padding: 40px 0px 10px 0px;
+	
 }
-
 
 div#amplitude-left div#player-left-bottom div#time-container:after{
 	content: "";

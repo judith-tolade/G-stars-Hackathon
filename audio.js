@@ -2,13 +2,13 @@ Amplitude.init({
    "songs":[
       {
          "name":"What is climate change?",
-         "url":"./audio/Building_Awareness.mp3",
+         "url":"./audio/What_is_climate_change.mp3",
          "source": "World Health Organization",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },
       {
          "name":"Causes of climate change",
-         "url":"./audio/Grounding_Exercise_1.mp3",
+         "url":"./audio/Causes of climate change",
          "source": "World Health Organization",
          "source_url": "https://www.who.int/publications/i/item/9789240003927"
       },

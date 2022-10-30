@@ -127,12 +127,17 @@
     font-weight: 700;
     border-radius: 45px;
     transition: all 0.4s;
-  
 }
+#sendLetter:hover{
+    border: 5px solid rgba(255, 255, 255, 1);
+  color: #ffffff;
+  transition: all 0.4s;
+  }
   a{
     text-decoration: none;
     color: white;
   }
+ 
   @media screen and (max-width: 900px) {
     .card .row {
       grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));

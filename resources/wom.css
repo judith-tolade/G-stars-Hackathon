@@ -155,23 +155,6 @@ div#amplitude-left div#player-left-bottom div#control-container{
 }
 
 /* Play-pause Styles */
-.amplitude-play-pause{
-	
-}
-.amplitude-play-pause:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.5);
-    transition: 400ms;
-    transform: skewX(45deg) translateX(calc(var(--width) + 50%));
-  }
-.amplitude-play-pause:hover {
-    transform: translateY(-20px);
-}
-    amplitude-play-pause:before {
-      transform: skewX(45deg) translateX(calc(var(--width) * -1 - 50%))
-    }
-  
-  amplitude-play-pause > * { opacity: 0.8; }
 
 
 div#head{

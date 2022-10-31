@@ -1,164 +1,215 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* html, body {
     height: 100vh;
     background: #666666;
+    background: #2e581e;
     font-family: 'Balsamiq Sans', sans-serif;
-  }
+  } */
+
+body {
+  background: #fff;
+  font-family: "Balsamiq Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .card {
-    width: 70%;
-    padding: 30px 90px 90px 90px;
-    border: 6px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 50px;
-    position: relative;
-  }
-  
-  .card h2 {
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 60px;
-    text-transform: uppercase;
-  }
-  
-  .card .row {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid: auto / auto auto;
-    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
-    grid-gap: 30px;
-  }
-  
-  .card .row .col {
-    position: relative;
-    width: 100%;
-    margin: 30px 20px 40px 0;
-    transition: 0.5s;
-  }
-  
-  .card .row .form-group {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    color: #ffffff;
-  }
-  
-  .card .row .form-group input,
-  .card .row .form-group textarea {
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background: transparent;
-    outline: none;
-    font-size: 24px;
-    padding: 10px 0 10px 20px;
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-    color: #ffffff;
-    border-radius: 50px;
-  }
-  
-  .card .row .form-group label {
-    line-height: 40px;
-    color: #ffffff;
-    font-size: 24px;
-    margin: 0 0 0 30px;
-    display: block;
-    pointer-events: none;
-  }
-  
-  .row .col:nth-child(6) {
-    margin-top: 64px;
-  }
-  
-  .card .row .form-group input:focus,
-  .card .row .form-group textarea:focus {
-    border: 5px solid #ffffff;
-    transition: all 0.5s;
-  }
-  
-  .card .row input[type="submit"] {
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    height: 100%;
-    width: 50%;
-    cursor: pointer;
-    outline: none;
-    background: transparent;
-    text-transform: uppercase;
-    color: #ffffff;
-    line-height: 40px;
-    font-size: 24px;
-    font-weight: 700;
-    border-radius: 45px;
-    transition: all 0.4s;
-  }
-  
-  .card .row input[type="submit"]:hover {
-    border: 5px solid rgba(255, 255, 255, 1);
-    color: #ffffff;
-    transition: all 0.4s;
-  }
-  #sendLetter {
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgb(0 0 0 / 30%);
-    padding: 10px;
-    height: 100%;
-    width: 50%;
-    cursor: pointer;
-    outline: none;
-    background: transparent;
-    text-transform: uppercase;
-    color: #ffffff;
-    line-height: 40px;
-    font-size: 24px;
-    font-weight: 700;
-    border-radius: 45px;
-    transition: all 0.4s;
 }
-#sendLetter:hover{
-    border: 5px solid rgba(255, 255, 255, 1);
+
+.card {
+  background: #2e581e;
+  width: 500px;
+  margin: 5rem 0 3rem;
+  padding: 20px 10px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  position: relative;
+}
+
+.card h2 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid: auto / auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.col {
+  position: relative;
+  width: 100%;
+  margin: 25px 0 40px 10px;
+  transition: 0.5s;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+  /* height: 40px; */
   color: #ffffff;
+}
+
+input,
+textarea {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  padding: 1rem 0.8rem;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+label {
+  line-height: 2;
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: block;
+  pointer-events: none;
+}
+
+.col:nth-child(6) {
+  margin-top: 64px;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover {
+  border: 3px solid #ffffff;
+  transition: all 0.5s;
+}
+
+.text-area-class {
+  height: 6rem;
+  width: 95%;
+}
+
+.text-area-class::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* .submit {
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 5rem;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 1rem;
+    transition: all 0.4s;
+  } */
+
+/* .card .row input[type="submit"]:hover {
+    border: 5px solid rgba(255, 255, 255, 1);
+    color: #ffffff;
+    transition: all 0.4s;
+  } */
+
+#sendLetter {
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 5rem;
+  padding: 10px;
+  height: 100%;
+  width: 95%;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
   transition: all 0.4s;
+  text-decoration: none;
+  color: #2e581e;
+}
+#sendLetter:hover {
+  background-color: #2e581e;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+.submit-link {
+  text-decoration: none;
+  color: #2e581e;
+}
+.submit-link:hover {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#result-message {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2e581e;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
+}
+
+footer a:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+  .card .row {
+    grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
   }
 
-  a{
-    text-decoration: none;
-    color: white;
+  .card {
+    padding: 20px;
   }
-  #result-message {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 20px;
+
+  .card h2 {
+    font-size: 1.5rem;
   }
- 
-  @media screen and (max-width: 900px) {
-    .card .row {
-      grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
-    }
-    
-    .card {
-      padding: 20px;
-    }
-    
-    .card h2 {
-      font-size: 34px;
-    }
-    
-    .card .row input[type="submit"] {
-      width: 100%;
-    }
+
+  .card .row input[type="submit"] {
+    width: 100%;
   }
+}

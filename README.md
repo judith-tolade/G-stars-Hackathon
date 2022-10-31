@@ -4,12 +4,19 @@ This is the repository for G-stars hackfest project. This repository educates us
 
 The files were utilized for the projects are:
 -- Index.html
+
 -- Form.html
+
 -- Form.css (can be found in the resources folder)
+
 -- Wom.css (can be found in the resources folder)
+
 -- Wom.js (can be found in the resources folder)
+
 -- Audio.js 
+
 -- Audio
+
 -- Documentation 
 
 You can check out the final app by clicking [here](https://judith-tolade.github.io/G-stars-Hackathon/). (Which gives you this repository published using [GitHub Pages](https://github.com/judith-tolade/G-stars-Hackathon.git)).

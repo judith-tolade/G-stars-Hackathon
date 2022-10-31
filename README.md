@@ -1,14 +1,14 @@
-# WOM.fm-Sandbox
+# G-stars
 
-This is a template repository for [WOM.fm](https://wom.fm). Template repositories let users generate new repositories with the same directory structure and files. It can serve as a sandbox for the development of an audio web application that can be used by local organizations to make vital knowledge and practical information accessible to marginalized, often illiterate populations. You can use the template to create an identical repository on your own GitHub account to play and learn. 
+This is the repository for G-stars hackfest project. This repository educates users about climate change, effects, and possible solutions by listening to the audio recordings. It also includes a form where people in affected or likely affected regions can fill. The form is connected to G-stars official email address.
 
-You can check out the final app by clicking [here](https://oseqorg.github.io/WOM.fm-Sandbox/). (Which gives you this repository published using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)).
+You can check out the final app by clicking [here](https://judith-tolade.github.io/G-stars-Hackathon/). (Which gives you this repository published using [GitHub Pages](https://github.com/judith-tolade/G-stars-Hackathon.git)).
 
-If you have an account on GitHub, you can start using the template by clicking the button below.
+If you have an account on GitHub, you can check the back scene of our webapp 
 
-[<img width="150" alt="use-this" src="https://user-images.githubusercontent.com/32398058/180222451-79803087-fa71-4afa-8eb7-5944aa263712.png">](https://github.com/OSEQorg/WOM.fm-Sandbox/generate)
+[<img width="150" alt="use-this" src="https://user-images.githubusercontent.com/32398058/180222451-79803087-fa71-4afa-8eb7-5944aa263712.png">](https://github.com/judith-tolade/G-stars-Hackathon.git)
 
 
-If you need additional information about using templates you can [click here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+If you need additional information, you can contact G-stars on their official email address [click here](gstarsclimatechange@gmail.com).
 
 
